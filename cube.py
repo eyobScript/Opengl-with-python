@@ -53,7 +53,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-        glRotatef(1, 1, 3, 1)
+        glRotatef(4, 4, 3, 1)
 
         glClear(GL_COLOR_BUFFER_BIT | GL_COLOR_BUFFER_BIT)
         cube()
